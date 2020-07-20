@@ -1,0 +1,17 @@
+Test Plan
+To test the speeds of both threads and processes, we decided to make seven test cases. To keep most of the variables constant, we decided to set the length of the array at 2000. 
+Each of the test cases has the machine create more processes/ threads to search the array. 
+We also had one test case (Test H) with a longer array to see the effect of the length of the array. 
+
+Test A: 2 Processes/Threads
+Test B: 4 Processes/Threads
+Test C: 8 Processes/Threads
+Test D: 16 Processes/Threads
+Test E: 20 Processes/Threads
+Test F: 40 Processes/Threads
+Test G: 100 Processes/Threads
+
+Test H: Lenght of Array: 20,000 80 Processes/Threads
+
+Although with prior knowledge that threads are much faster than processes for most of our testing saw, both threads and processes remained relatively the same, with threads beating processes out by a small margin. This error may have occurred because of the iLab machines being burdened.  In batch three, however, there was more of a difference.
+Test case H saw the most significant gains for threads; we can conclude that when the array size is longer threads perform much faster. It also saw a higher variance and had a more significant standard deviation when it was using processes when compared to threads. Test H is bolded in our test results.
